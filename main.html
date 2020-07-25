@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Welcome to FoodWorld</title>
+		<meta charset="utf-8" />
+    	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/WDLProject/css/style.css">	
+		<style type="text/css">
+		.bgimg1
+		{
+		background: url(/WDLProject/res/loginn1.jpg) no-repeat center; 
+		background-size: cover;
+		height: 500px;
+		position: relative;
+		}
+		.bgimg2
+		{
+		background: url(/WDLProject/res/foodcourt.jpg) no-repeat center; 
+		background-size: cover;
+		height: 500px;
+		position: relative;
+		}
+		</style>
+	</head>
+	
+	<body bgcolor="#FFFF80">
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+		<!--Navbar-->
+		<div class="w3-top-fixed w3-bar grad1 w3-myfont1">
+			<div class="w3-panel w3-padding-medium">
+				<div class="w3-left w3-xxlarge w3-margin-left myfontcol2"><b>FoodWorld <sup>&copy</sup></b></div>
+				<div class="w3-right">
+				<a href="#about" class="w3-bar-item w3-button w3-xlarge">About</a>
+				<a href="#outlets" class="w3-bar-item w3-button w3-xlarge">Our Partners</a>
+				<a href="#contact" class="w3-bar-item w3-button w3-xlarge">Contact</a>
+				<a href="feedback.php" class="w3-bar-item w3-button w3-xlarge">Feedback</a>
+				<button class="button" type="button" id="button" href="Login.php" onclick="window.location.href='Login.php'">Login or Sign in</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		<section id="about">
+		<div class="w3-container bgimg1">
+		<img src="/WDLProject/res/Logo.png" height="400" width="600" align="left">
+		<br>
+		<p class="w3-myfont2 w3-xxlarge ">About</p>
+		<p class="w3-myfont3 w3-xlarge">We, at Foodland, have always been keen to provide quality food from selected restaurants for our customers.
+			It's been about 2 years that we have been serving our customers right. With the help of our reknowned partners like
+			Sher-e-Punjab, Sbaro, Dominos, Pizza Hut, and many more.<br>
+			The journey has been excellent in this tenure and we are hopeful in providing exceptionally great service to our customers.<br>
+			We,don't just deliver food, we make great delights.Food World was built on the belief that food is one of the elementals to life on Earth and we carry that belief into everything we do.<br>
+			:)
+			<br>
+		</p>
+		</div>
+		</section>
+		<section id="outlets">
+		<div class="w3-container bgimg2">
+		<p class="w3-myfont2 w3-xxlarge w3-fontcol2">Our Partners</p>
+		<p class="w3-myfont3 w3-xlarge w3-fontcol2">Some of our fellow partners in our endeavour are: 
+			<a href="outlets.html">click here to know more.</a>
+
+			<br>
+		</p>
+		</div>
+		</section>
+		<section id="contact">
+		<div class="w3-container grad3">
+		<br>
+		<i class="fa fa-address-book-o" style="font-size:400px;color:orange"></i>
+		<div class="w3-right">
+		<p class="w3-myfont2 w3-xxlarge">Contact</p>
+		<p class="w3-myfont3 w3-xlarge">
+			We are 24x7 available on our tollfree number:1800 0000 0000<br>
+			Head Office Address:Sardar Vallabhbhai Patel Rd, Near Bhagwati Hospital, Mount Poinsur, Borivali West, Mumbai, <br>Maharashtra 400103<br>
+			Tel No:022-28121990<br>
+			Fax:023-23123321
+			<br>
+			The chief creators of this website are :
+			<br>
+			<div class="w3-row w3-myfont1 w3-xxlarge">
+				<div class="w3-third">
+					<p>Abhinav Pisharody</p>
+				</div>
+				<div class="w3-third">
+					<p>Roshani Poojary</p>
+				</div>
+				<div class="w3-third">
+					<p>Shreya Prasad</p>
+				</div>		
+			</div>
+		</p>
+	</div>
+
+		<div class="footer w3-bottom">
+        	<div class="w3-container">Copyright &copy by ARS</div>        
+		</div>
+
+	
+		<script>
+			var mybutton = document.getElementsById("myBtn");
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+	</body>
+
+</html>

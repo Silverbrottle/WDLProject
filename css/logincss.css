@@ -1,0 +1,112 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC|Lobster|Oleo+Script|Lobster+Two|Roboto+Condensed&display=swap');
+body{
+    background-image: url("/WDLProject/res/loginbg.jpg");
+    background-repeat:no-repeat;
+       background-size:2000px;
+}
+.w3-myfont0{
+font-family:"Lobster";
+}
+.w3-myfont1{
+font-family: 'Marcellus SC', serif;
+font-size: 55px;
+}
+.w3-myfont2{
+font-family: "Oleo Script";
+line-height: 30px;
+}
+.w3-myfont3{
+font-family: "Lobster Two";
+line-height: 30px;
+}
+.w3-myfont4{
+font-family: "Roboto Condensed";
+line-height: 30px;
+}
+.w3-fontcol{
+color:white;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(0deg, red, yellow);
+    text-align: center;
+    color: black;
+    font-style: italic;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.pos{
+    position: static;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+.container1{
+    width: 500px;
+    height: 650px;
+    margin-left: 150px;
+    
+}
+.container2{
+    width: 500px;
+    height: 645px;
+    margin-left: 900px;
+}
+.button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;	
+      font-size: 16px;
+      width : 200px;
+      padding-bottom:  20px; 
+      transition: all 0.5s;
+      cursor: pointer;
+      height: 30px;
+}	
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+.button:hover span {
+    padding-right: 20px;
+    }	
+.button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.grad1{
+    background: linear-gradient(45deg, yellow, rgb(255, 255, 255));
+}
+.grad2{
+    background: linear-gradient(90deg, red, orange);
+}
+.fontcolor{
+    color: red;
+}

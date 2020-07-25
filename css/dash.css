@@ -1,0 +1,52 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lobster|Oleo+Script|Lobster+Two|Signika&display=swap');
+
+body{
+    background-image: linear-gradient(0deg,gold,white);
+    background-size: cover;
+}
+.logbtn_area{
+    float: left;
+    font-style: italic;
+    margin-right: 20px;
+}
+.w3-myfont4{
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-size: 40px;
+    line-height: 30px;
+}
+.w3-myfont2{
+	font-family: "Oleo Script";
+    line-height: 35px;
+    font-size: 35px;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(0deg, red, yellow);
+    text-align: center;
+    color: black;
+    font-style: italic;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    position: relative;
+    color: azure;
+}
+.w3-myfont1{
+    font-family:"Lobster";
+    font-size: 50px;
+    padding-top: 20px;
+}
+.fontcol{
+    color: lightsalmon;
+    font-weight:normal;
+   }
+.cont{
+    width: 20%;
+    height:100%;   
+    background-image: linear-gradient(to bottom,orange,yellow);
+}

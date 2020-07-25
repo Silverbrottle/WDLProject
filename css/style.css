@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lobster|Oleo+Script|Lobster+Two|Signika&display=swap');
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+  scroll-behavior: smooth;
+}
+.w3-myfont1{
+	font-family:"Lobster";
+}
+.w3-myfont2{
+	font-family: "Oleo Script";
+	line-height: 30px;
+}
+.w3-myfont3{
+	font-family: "Lobster Two";
+	line-height: 30px;
+}
+.w3-myfont4{
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-size: 40px;
+  line-height: 30px;
+}
+.myfontcol2{
+  color:rgb(255,0, 0);
+}
+.w3-fontcol{
+	color:white;
+}
+.w3-fontcol2{
+	color:limegreen;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(0deg, red, yellow);
+    text-align: center;
+    color: black;
+    font-style: italic;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+.button {
+    background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 12px;
+}	
+.button:hover {opacity: 1}
+.button:active {
+    background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #FFD700;
+}
+.grad1{
+  background: linear-gradient(180deg, rgb(255, 115, 0), white);
+}
+.rounder{
+  border-radius: 30%;
+}
+.grad3{
+  background: linear-gradient(180deg, lightblue, limegreen);
+}
